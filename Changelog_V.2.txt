@@ -1,0 +1,104 @@
+Changelog:V.1
+Date:4th-April-2019
+
+/////////////////////////////////////////////////
+1. 24 Versions included:
+	Horizontal-Dark
+	Horizontal-Dark-Boxed
+	Horizontal-Light
+	Horizontal-Light-Boxed
+	Horizontal-logo-Light(Center-logo)
+	Horizontal-logo-Light-boxed (Center-logo)
+	Leftmenu-full-width-DarkSidebar(Another Smaple1)
+	Leftmenu-full-width-LightSidebar(Another Smaple2)
+	Leftmenu-Fullwidth-Draksidebar
+	Leftmenu-Fullwidth-Draksidebar-Boxed
+	Leftmenu-Fullwidth-Draksidebar-Dark
+	Leftmenu-Fullwidth-Draksidebar-Darkboxed
+	Leftmenu-Fullwidth-Lightsidebar
+	Leftmenu-Fullwidth-Lightsidebar-Boxed
+	Leftmenu-Icon-DarkSidebar-Dark
+	Leftmenu-Icon-DarkSidebar-Dark-Boxed
+	Leftmenu-Icon-DarkSidebar-Light
+	Leftmenu-Icon-DarkSidebar-Light-Boxed
+	Leftmenu-Icon-LightSidebar
+	Leftmenu-Icon-LightSidebar-Boxed
+	Leftmenu-toggle-DarkSidebar(another Sample3)
+	Leftmenu-toggle-LightSidebar(another Sample4)
+	Rightmenu-Icon-DarkSidebar
+	Rightmenu-Icon-LightSidebar
+
+/////////////////////////////////////////////////
+2. Floder Structure:
+	assets/
+	  - css
+	     boxed.css(New)
+	     stle.css(Updated)
+	  - css-dark(New)
+	     boxed.css(New)
+	     stle.css(Updated)
+	  - fonts
+	  - images
+	  - js
+	  - js-dark(New)
+	  - plugins
+
+/////////////////////////////////////////////////
+3 css Folders:
+	3.1 boxed.css file- This file includes only boxed styles
+	3.2 style.css:
+		Added- Add the  Code form line no 24774 to 24880 
+		Changed- line no 12811 (previous: .header {padding-top: .75rem; padding-bottom: .75rem;}, updated: .header {padding-top: 0;padding-bottom: 0;background:#fff;})
+	3.3 css-Dark folder only dark versions included.
+
+/////////////////////////////////////////////////
+4.images Folder:
+	assets/images/20.jpg (change the location assets/images/photos/33.jpg)
+	assets/images/21.png (change the location assets/images/photos/34.jpg)
+
+
+/////////////////////////////////////////////////
+5. js Folder: Changed- custom.js file (older: line no:154 if(w.outerWidth() <= 1024)),(Newly: line no:175: if(w.outerWidth() <= 1924))
+
+
+/////////////////////////////////////////////////
+6. plugins Folder:
+	Added Folder:This folders or files only dark versions included
+			fullcalendar-dark,summernote-dark,tinymce-dark,chart-chart.bundle-dark.js,formwizard-dark-smart_wizard_theme_dots.css,horizontal-menu-dark-horizontalmenu.css,
+			select2-select2.min-dark.css,sidebar-dark-sidebar.css.
+	Updated Folder: assets/plugins/toggle-sidebar(toggle-sidebar folder, replace the directory because in this folder some changes, updated, added to the files)
+			Changed- sidemenu.css (older:336 line .app-sidebar { z-index:99990;} New:339 line .app-sidebar { z-index:10;},
+				 summernote-summernote-bs4.css(Older:line no 406 .note-toolbar {z-index: 500;},  New: line no 406 .note-toolbar {z-index: 1;} )
+			added- line no 34 .app-sidebar{
+	  margin-top:0 !important; z-index:1035 !important;
+  }, Add the  Code form line no 905 to 965.
+
+
+///////////////////////////////////////////////
+7.  Updated in Html pages: Added Code form line 348 to 411 in all html pages.
+
+
+///////////////////////////////////////////////
+8.Faqs
+
+  1.How to change Leftmenu-Icon-DarkSidebar-Light verison ?
+	we included assets/plugins/toggle-sidebar/sidemenu-dark.css and assets/plugins/accordion1/easy-responsive-tabs-dark.css
+
+  2.How to change Leftmenu-Icon-DarkSidebar-Light-Boxed verison ? 
+	we included assets/plugins/toggle-sidebar/sidemenu-dark-boxed.css and assets/plugins/accordion1/easy-responsive-tabs-dark.css and assets/plugins/css/boxed.css
+
+  3.How to change Leftmenu-Fullwidth-Lightsidebar verison ?
+	we included assets/plugins/toggle-sidebar/full-sidemenu.css 
+
+  4.How to change Leftmenu-Fullwidth-Lightsidebar-Boxed?
+	 we included assets/plugins/toggle-sidebar/full-sidemenu-boxed.css and assets/plugins/css/boxed.css
+
+  5.How to change Leftmenu-Fullwidth-Draksidebar verison ?
+	 we included assets/plugins/toggle-sidebar/full-sidemenu-dark.css and assets/plugins/accordion1/easy-responsive-tabs-dark.css 
+
+  6.How to change Leftmenu-Fullwidth-Draksidebar-Darkboxed verison ?
+	we included assets/plugins/toggle-sidebar/full-sidemenu-dark-boxed.css and assets/plugins/accordion1/easy-responsive-tabs-dark.css and assets/plugins/css/boxed.css
+
+
+/////////////////////////////////////////////////
+Note:Please don't change the css because we will update it continuously,if you want to add customized css then write another style css and include it in your template.
